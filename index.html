@@ -6,8 +6,22 @@
     <title>edudu</title>
     <!-- tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .nunito {
+        font-family: "Nunito", sans-serif;
+      }
+    </style>
   </head>
-  <body>
+  <body class="nunito">
     <!-- header section -->
     <header>
       <nav
@@ -57,18 +71,22 @@
             class="text-center text-slate-900 md:text-start md:w-4/5 order-2 md:order-1"
           >
             <h2 class="text-3xl font-medium">Knowledge Connection</h2>
-            <h1 class="text-4xl md:text-5xl font-bold py-1">Open the Door to the Future</h1>
+            <h1 class="text-4xl md:text-5xl font-bold py-1">
+              Open the Door to the Future
+            </h1>
             <p class="mt-1">
               Giving every student the opportunity to access the best education
               and open the door to the world of knowledge. Start your learning
               journey today with Edudu to become an outstanding student in our
               learning community.
             </p>
-            <button class="bg-[#FAB900] rounded-xl p-3 mt-4 font-medium">Get started !</button>
+            <button class="bg-[#FAB900] rounded-xl p-3 mt-4 font-medium">
+              Get started !
+            </button>
           </div>
           <div class="order-1 md:order-2">
             <img
-              src="https://raw.githubusercontent.com/mrashed21/image-hosting/main/hero.png"
+              src="https://raw.githubusercontent.com/mrashed21/image-hosting/main/edudu/hero.png"
               alt="image"
             />
           </div>
@@ -76,7 +94,109 @@
       </section>
     </header>
     <!-- main section -->
-    <main></main>
+    <main>
+      <section class="container px-5 md:px-0 mx-auto">
+        <div class="bg-[#f9f9f9] my-8 p-10 rounded-xl">
+          <h1 class="text-3xl md:text-5xl font-bold py-1 text-center">
+            Lessons revolve around 4 areas
+          </h1>
+          <p class="text-center md:mx-24 my-7">
+            Diverse lessons around 4 subjects: Math, literature, English,
+            drawing help children improve their comprehensive knowledge
+          </p>
+          <div class="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-7 mt-5">
+            <div
+              class="flex items-center bg-white shadow-md cursor-pointer p-3 rounded-lg gap-2"
+            >
+              <img
+                src="https://raw.githubusercontent.com/mrashed21/image-hosting/48eb18caf4b052795d2fd528fea656fb93f51324/edudu/math.svg"
+                alt="icon"
+                class="w-10 h-10"
+              />
+              <p class="text-xl font-medium">Math</p>
+            </div>
+            <div
+              class="flex items-center bg-white shadow-md cursor-pointer p-3 rounded-lg gap-2"
+            >
+              <img
+                src="https://raw.githubusercontent.com/mrashed21/image-hosting/48eb18caf4b052795d2fd528fea656fb93f51324/edudu/literature.svg"
+                alt="icon"
+                class="w-10 h-10"
+              />
+              <p class="text-xl font-medium">Literature</p>
+            </div>
+            <div
+              class="flex items-center bg-white shadow-md cursor-pointer p-3 rounded-lg gap-2"
+            >
+              <img
+                src="https://raw.githubusercontent.com/mrashed21/image-hosting/48eb18caf4b052795d2fd528fea656fb93f51324/edudu/english.svg"
+                alt="icon"
+                class="w-10 h-10"
+              />
+              <p class="text-xl font-medium">English</p>
+            </div>
+            <div
+              class="flex items-center bg-white shadow-md cursor-pointer p-3 rounded-lg gap-2"
+            >
+              <img
+                src="https://raw.githubusercontent.com/mrashed21/image-hosting/48eb18caf4b052795d2fd528fea656fb93f51324/edudu/art.svg"
+                alt="icon"
+                class="w-10 h-10"
+              />
+              <p class="text-xl font-medium">Art</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- hero section -->
+      <section>
+        <div
+          class="container flex items-center flex-col md:flex-row gap-8 py-10 md:pb-0 px-5 md:px-0 mx-auto"
+        >
+          <div class="">
+            <img
+              src="https://raw.githubusercontent.com/mrashed21/image-hosting/main/edudu/banner.png"
+              alt="image"
+              class="w-full"
+            />
+          </div>
+          <div class="">
+            <h1 class="text-[#1F1C14] text-5xl font-extrabold">
+              What will your child get after studying at Edudu?
+            </h1>
+
+            <div class="flex items-center gap-2 mt-7">
+              <img
+                src="https://raw.githubusercontent.com/mrashed21/image-hosting/7e802263b0e96322ee34eeef5e10267fae6e7900/edudu/checkmark.svg"
+                alt="icon"
+              />
+              <p class="text-[#1F1C14] text-2xl font-medium">
+                Master program knowledge at school
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <img
+                src="https://raw.githubusercontent.com/mrashed21/image-hosting/7e802263b0e96322ee34eeef5e10267fae6e7900/edudu/checkmark.svg"
+                alt="icon"
+              />
+              <p class="text-[#1F1C14] text-2xl font-medium">
+                The ability to criticize knowledge increases
+              </p>
+            </div>
+            <div class="flex gap-2 items-baseline">
+              <img
+                src="https://raw.githubusercontent.com/mrashed21/image-hosting/7e802263b0e96322ee34eeef5e10267fae6e7900/edudu/checkmark.svg"
+                alt="icon"
+              />
+              <p class="text-[#1F1C14] text-2xl font-medium">
+                Respond confidently when encountering difficult situations
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- footer section -->
     <footer></footer>
   </body>
